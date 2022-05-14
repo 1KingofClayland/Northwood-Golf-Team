@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    font-size:2em;
+    text-align:center;
+}
+h2{
+    font-size:1.5em;
+    color:#444444;
+}
+body{
+    background-color:#F5F5F5;
+}
+.top_logo{
+    width:100%;
+    height:10%;
+    padding-left:1%;
+    background-color:#222e5f;
+    text-align:center;
+    position:fixed;
+    z-index:2;
+}
+.logo{
+    width:90%;
+    height:90%;
+    z-index:3;
+}
+.navbar{
+    width:100%;
+    height:6%;
+    padding:2% 10%;
+    background-color:#ffffff;
+    text-align:center;
+    position:fixed;
+    top:10%;
+}
+.navbut{
+    clear:both;
+    padding:1%;
+    padding-top:0;
+    display:inline-block;
+}
+.navbut:hover{
+    text-decoration:underline;
+}
+.title{
+    position:relative;
+    top:17%;
+}
+@media only screen and (min-width:390){
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1.5em;
+    }
+    .top_logo{
+        width:100%;
+        height:10%;
+        padding-left:1%;
+    }
+    .logo{
+        width:90%;
+        height:90%;
+    }
+    .navbar{
+        width:100%;
+        height:6%;
+        padding:2% 10%;
+    }
+    .navbut{
+        padding:2.5%;
+        padding-top:0;
+    }
+    .title{
+        top:17%;
+    }
+}
+/* @media only screen and (min-width:768px){
+    h1{}
+    h2{}
+    .top_logo{}
+    .logo{}
+    .top_logo_slant{}
+    .navbar{}
+    .navbut{}
+    .title{}
+} */
+@media only screen and (min-width:1000px){
+    h1{
+        font-size:3em;
+    }
+    h2{
+        font-size:2em;
+    }
+    .top_logo{
+        width:30%;
+        height:17%;
+        padding-left:1%;
+    }
+    .logo{
+        width:90%;
+        height:90%;
+    }
+    .top_logo_slant{
+        width:6%;
+        height:17%;
+        margin-left:26%;
+        background-color:#222e5f;
+        text-align:center;
+        position:fixed;
+        transform:skew(-15deg);
+        z-index:1;
+    }
+    .navbar{
+        width:100%;
+        height:13%;
+        padding:0;
+        padding-left:35%;
+        top:0;
+    }
+    .navbut{
+        padding:2.5%;
+        padding-top:3%;
+    }
+    .title{
+        top:17%;
+    }
+}
