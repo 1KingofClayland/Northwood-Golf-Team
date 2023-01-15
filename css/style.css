@@ -56,6 +56,8 @@ body{
     text-decoration-color:#444444;
 }
 .bodydiv{
+    margin-left:3%;
+    margin-right:3%;
     position:relative;
     top:17%;
 }
