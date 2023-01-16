@@ -63,11 +63,9 @@ body{
 }
 table{
     width:50%;
-    top:19%;
     margin-left:auto;
     margin-right:auto;
     border-top:0.01rem solid #000000;
-    /* border:0.1rem solid #000000; */
     border-collapse:collapse;
     text-align:center;
     position:relative;
