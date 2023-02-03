@@ -15,6 +15,9 @@ h2{
     font-size:1rem;
     color:#000000;
 }
+h3{
+    font-size:0.85rem;
+}
 p{
     font-size:0.8rem;
     color:#000000;
@@ -29,7 +32,7 @@ body{
     background-color:#222e5f;
     text-align:center;
     position:fixed;
-    z-index:2;
+    z-index:3;
 }
 .logo{
     width:90%;
@@ -44,6 +47,7 @@ body{
     text-align:center;
     position:fixed;
     top:10%;
+    z-index:1;
 }
 .navbut{
     clear:both;
@@ -61,7 +65,7 @@ body{
     top:17%;
 }
 table{
-    width:50%;
+    width:80%;
     margin-left:auto;
     margin-right:auto;
     margin-top:25%;
@@ -70,11 +74,21 @@ table{
     text-align:center;
     position:relative;
 }
+.schedule{
+    text-align:left;
+}
 tr{
     border-bottom:0.01rem solid #000000;
+    text-align:left;
 }
-th,td{
-    width:100%;
+th{
+    width:25%;
+    background-color:#92a2da;
+    text-align:center;
+}
+td{
+    width:25%;
+    text-align:center;
 }
 @media only screen and (min-width:390){
     h1{
@@ -85,6 +99,9 @@ th,td{
     }
     h2{
         font-size:1.5rem;
+    }
+    h3{
+        font-size:1.35rem;
     }
     p{
         font-size:1.25rem;
@@ -135,6 +152,9 @@ th,td{
     h2{
         font-size:2rem;
     }
+    h3{
+        font-size:1.25rem;
+    }
     p{
         font-size:1rem;
     }
@@ -155,7 +175,7 @@ th,td{
         text-align:center;
         position:fixed;
         transform:skew(-15deg);
-        z-index:1;
+        z-index:2;
     }
     .navbar{
         width:100%;
@@ -172,7 +192,7 @@ th,td{
         top:17%;
     }
     table{
-        width:30%;
+        width:50%;
         margin-top:8%;
     }
 }
